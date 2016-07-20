@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E234B581D0118620018A22B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E234B571D0118620018A22B /* main.m */; };
+		0E234B5B1D0118620018A22B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E234B5A1D0118620018A22B /* AppDelegate.m */; };
+		0E234B5E1D0118620018A22B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E234B5D1D0118620018A22B /* ViewController.m */; };
+		0E234B611D0118620018A22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E234B5F1D0118620018A22B /* Main.storyboard */; };
+		0E234B631D0118620018A22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E234B621D0118620018A22B /* Assets.xcassets */; };
+		0E234B661D0118620018A22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E234B641D0118620018A22B /* LaunchScreen.storyboard */; };
+		0E234B701D01189D0018A22B /* ScrapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E234B6F1D01189D0018A22B /* ScrapView.m */; };
+		0E234B731D011CA80018A22B /* STScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E234B721D011CA80018A22B /* STScratchView.m */; };
+		0E234B751D011CB10018A22B /* gua_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E234B741D011CB10018A22B /* gua_img.png */; };
+		0E234B771D01228C0018A22B /* game_guaguale.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E234B761D01228C0018A22B /* game_guaguale.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E234B531D0118620018A22B /* ScrapingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrapingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E234B571D0118620018A22B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E234B591D0118620018A22B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E234B5A1D0118620018A22B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E234B5C1D0118620018A22B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E234B5D1D0118620018A22B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E234B601D0118620018A22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E234B621D0118620018A22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E234B651D0118620018A22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E234B671D0118620018A22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E234B6E1D01189D0018A22B /* ScrapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrapView.h; sourceTree = "<group>"; };
+		0E234B6F1D01189D0018A22B /* ScrapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrapView.m; sourceTree = "<group>"; };
+		0E234B711D011CA80018A22B /* STScratchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScratchView.h; sourceTree = "<group>"; };
+		0E234B721D011CA80018A22B /* STScratchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScratchView.m; sourceTree = "<group>"; };
+		0E234B741D011CB10018A22B /* gua_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gua_img.png; sourceTree = "<group>"; };
+		0E234B761D01228C0018A22B /* game_guaguale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_guaguale.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E234B501D0118620018A22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E234B4A1D0118620018A22B = {
+			isa = PBXGroup;
+			children = (
+				0E234B551D0118620018A22B /* ScrapingCard */,
+				0E234B541D0118620018A22B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E234B541D0118620018A22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E234B531D0118620018A22B /* ScrapingCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E234B551D0118620018A22B /* ScrapingCard */ = {
+			isa = PBXGroup;
+			children = (
+				0E234B591D0118620018A22B /* AppDelegate.h */,
+				0E234B5A1D0118620018A22B /* AppDelegate.m */,
+				0E234B5C1D0118620018A22B /* ViewController.h */,
+				0E234B5D1D0118620018A22B /* ViewController.m */,
+				0E234B6D1D0118780018A22B /* 刮刮乐view */,
+				0E234B5F1D0118620018A22B /* Main.storyboard */,
+				0E234B621D0118620018A22B /* Assets.xcassets */,
+				0E234B641D0118620018A22B /* LaunchScreen.storyboard */,
+				0E234B671D0118620018A22B /* Info.plist */,
+				0E234B561D0118620018A22B /* Supporting Files */,
+			);
+			path = ScrapingCard;
+			sourceTree = "<group>";
+		};
+		0E234B561D0118620018A22B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E234B571D0118620018A22B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E234B6D1D0118780018A22B /* 刮刮乐view */ = {
+			isa = PBXGroup;
+			children = (
+				0E234B6E1D01189D0018A22B /* ScrapView.h */,
+				0E234B6F1D01189D0018A22B /* ScrapView.m */,
+				0E234B711D011CA80018A22B /* STScratchView.h */,
+				0E234B721D011CA80018A22B /* STScratchView.m */,
+				0E234B741D011CB10018A22B /* gua_img.png */,
+				0E234B761D01228C0018A22B /* game_guaguale.png */,
+			);
+			name = "刮刮乐view";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E234B521D0118620018A22B /* ScrapingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E234B6A1D0118620018A22B /* Build configuration list for PBXNativeTarget "ScrapingCard" */;
+			buildPhases = (
+				0E234B4F1D0118620018A22B /* Sources */,
+				0E234B501D0118620018A22B /* Frameworks */,
+				0E234B511D0118620018A22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrapingCard;
+			productName = ScrapingCard;
+			productReference = 0E234B531D0118620018A22B /* ScrapingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E234B4B1D0118620018A22B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "刘康蕤";
+				TargetAttributes = {
+					0E234B521D0118620018A22B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0E234B4E1D0118620018A22B /* Build configuration list for PBXProject "ScrapingCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E234B4A1D0118620018A22B;
+			productRefGroup = 0E234B541D0118620018A22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E234B521D0118620018A22B /* ScrapingCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E234B511D0118620018A22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E234B661D0118620018A22B /* LaunchScreen.storyboard in Resources */,
+				0E234B631D0118620018A22B /* Assets.xcassets in Resources */,
+				0E234B771D01228C0018A22B /* game_guaguale.png in Resources */,
+				0E234B611D0118620018A22B /* Main.storyboard in Resources */,
+				0E234B751D011CB10018A22B /* gua_img.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E234B4F1D0118620018A22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E234B5E1D0118620018A22B /* ViewController.m in Sources */,
+				0E234B731D011CA80018A22B /* STScratchView.m in Sources */,
+				0E234B5B1D0118620018A22B /* AppDelegate.m in Sources */,
+				0E234B701D01189D0018A22B /* ScrapView.m in Sources */,
+				0E234B581D0118620018A22B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E234B5F1D0118620018A22B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E234B601D0118620018A22B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E234B641D0118620018A22B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E234B651D0118620018A22B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E234B681D0118620018A22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E234B691D0118620018A22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E234B6B1D0118620018A22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrapingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lkr.ScrapingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E234B6C1D0118620018A22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrapingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lkr.ScrapingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E234B4E1D0118620018A22B /* Build configuration list for PBXProject "ScrapingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E234B681D0118620018A22B /* Debug */,
+				0E234B691D0118620018A22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E234B6A1D0118620018A22B /* Build configuration list for PBXNativeTarget "ScrapingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E234B6B1D0118620018A22B /* Debug */,
+				0E234B6C1D0118620018A22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E234B4B1D0118620018A22B /* Project object */;
+}
